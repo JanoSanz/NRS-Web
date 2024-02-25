@@ -374,7 +374,7 @@ footer a{
 
 }
 
-@media (min-width: 901px) and (max-width: 1703px)  {
+@media (min-width: 1031px) and (max-width: 1703px)  {
 
 /*header*/
 
@@ -438,7 +438,7 @@ header a{
 }  
 
 #foto-header{
-    width: max-content;
+    width: auto;
 }
 
 #foto-header img{
@@ -739,7 +739,7 @@ footer a{
 
 }
 
-@media (max-width: 900px)  {
+@media (max-width: 1030px)  {
 
 /*header*/
 
