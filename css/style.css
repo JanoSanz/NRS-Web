@@ -115,7 +115,7 @@ main{
 }
 
 #main-index{
-    background-image: url(/fotos/Frentefondo.jpg);
+    background-image: url(../fotos/Frentefondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     left: 0;
@@ -467,7 +467,7 @@ main{
 }
 
 #main-index{
-    background-image: url(/fotos/Frentefondo.jpg);
+    background-image: url(../fotos/Frentefondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     left: 0;
@@ -848,7 +848,7 @@ main{
 }
 
 #main-index{
-    background-image: url(/fotos/Frentefondo.jpg);
+    background-image: url(../fotos/Frentefondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     left: 0;
