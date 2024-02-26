@@ -765,8 +765,9 @@ header button{
 }
 
 #foto-header img{   
-    height: 100%;
-    width: 85%;
+    height: 5vh;
+    width: 70%;
+    min-width: 200px;
 }
 
 #links{
