@@ -438,7 +438,7 @@ header a{
 }  
 
 #foto-header{
-    width: auto;
+    width: 40px;
 }
 
 #foto-header img{
@@ -766,7 +766,7 @@ header button{
 
 #foto-header img{   
     height: 5vh;
-    width: 70%;
+    width: 20%;
     min-width: 200px;
 }
 
