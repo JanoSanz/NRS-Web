@@ -118,6 +118,7 @@ main{
     background-image: url(../fotos/Frentefondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     left: 0;
     padding: 5vh;
 }
@@ -470,6 +471,7 @@ main{
     background-image: url(../fotos/Frentefondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     left: 0;
     padding: 5vh;
 }
@@ -857,6 +859,7 @@ main{
     padding: 2vh;
     display: flex;
     height: 100%;
+    align-items: center;
 }
 
 #index-texto{
