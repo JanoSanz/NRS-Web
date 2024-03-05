@@ -776,7 +776,7 @@ header button{
 }
 
 #links{
-    width: 100%;
+    width: max-content;
 }
 
 header {
@@ -807,13 +807,14 @@ header ul{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 header li{
     width: 500px;
     display: block;
     width: 100%;
-    margin: 1vh;
+    margin: 1vh 0px;
     border-radius: 3px;
     border: 5px solid  rgb(87, 87, 87);
     background-color: #5c758c;
@@ -821,6 +822,7 @@ header li{
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
+    text-align: center;
 }
 
 header a{
