@@ -332,6 +332,7 @@ main{
     background-color: #cfe2f3;
     display: flex;
     flex-wrap: wrap;
+    height: 70%;
 }
 
 #contactoHub{
@@ -340,7 +341,7 @@ main{
     font-size: 20px;
     font-weight:300;
     align-items: center;
-    align-content: center;
+    justify-content: space-between;
 }
 
 #mapa{
