@@ -20,25 +20,108 @@
             margin: 30px;
             text-align: center;
         }
-        
         .imagen2{
             display: inline-block;
             width: 30%;
             margin: 30px;
             text-align: center;
         }
-        
         .imagen3{
             display: inline-block;
             width: 30%;
             text-align: center;
             
         }
-        
         .imagen4{
             display: inline-block;
             width: 30%;
             margin: 22px;
+            text-align: center;
+        }
+    }
+}
+@media (min-width: 1031px) and (max-width: 1703px) {
+    #inyeccion{
+        padding-left: 15px;
+        background-color: #cfe2f3;
+        .textoInyeccion{
+            width: 60%;
+            text-align: justify;
+            line-height: 1.6;
+            padding: 25px;
+            float: left;
+            margin: 30px;
+            background-color: #bcbcbc;
+            border-radius: 10px;
+            color: black;
+            text-align: justify;
+        }
+        .imagen1{
+            display: inline-block;
+            width: 40%;
+            margin: 20px;
+            text-align: center;
+        }
+        .imagen2{
+            display: inline-block;
+            width: 40%;
+            margin: 20px;
+            text-align: center;
+        }
+        .imagen3{
+            display: inline-block;
+            width: 40%;
+            margin: 20px;
+            text-align: center;
+        }
+        .imagen4{
+            display: inline-block;
+            width: 40%;
+            margin: 20px; 
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 1030px){
+    #inyeccion{
+        padding: 2vh;
+        height: max-content;
+        background-color: #cfe2f3;
+        .textoInyeccion{
+            width: 100%;
+            padding: 25px;
+            float: left;
+            background-color: #bcbcbc;
+            border-radius: 10px;
+            color: black;
+            text-align: justify;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+        .imagen1{
+            padding: 2vh;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+        .imagen2{
+            padding: 2vh;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+        .imagen3{
+            padding: 2vh;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+        .imagen4{
+            padding: 2vh;
+            display: inline-block;
+            width: 100%;
             text-align: center;
         }
     }

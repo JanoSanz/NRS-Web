@@ -533,11 +533,6 @@ main img{
 
 /*INYECCION*/
 
-#inyeccion{
-    padding-left: 15px;
-    background-color: #cfe2f3;
-}
-
 .textoInyeccion{
     width: 60%;
     text-align: justify;

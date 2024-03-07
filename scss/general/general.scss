@@ -26,5 +26,15 @@
                 box-sizing: border-box;
             }
         }
+        @media (max-width: 1030px){
+            main{
+                height: 100%;
+                grid-area: main;
+                img{
+                    border: 5px solid #bcbcbc;
+                    box-sizing: border-box;
+                }
+            }
+        }
     }
 }
