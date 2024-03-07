@@ -1,0 +1,62 @@
+@media (min-width: 1704px) and (max-width: 8000px){
+    #matriceria{
+        padding-left: 15px;
+        background-color: 	#cfe2f3;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        #textoMatriceria{
+            width: 50%;
+            color: black;
+            background-color: #bcbcbc;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            height: max-content;
+            text-align: justify;
+            padding: 25px;
+            text-align: justify;
+            flex-shrink: 4;
+            margin-top: 1vh;
+            #listaMatriceria{
+                padding-left: 35px;
+            }
+            p{
+                display: inline;
+                font-family: 'Roboto', sans-serif;
+                
+            }
+        }
+        
+        .imgMatriceriaP{
+            height: 50%;
+            width: 50%;
+            text-align: center;
+            height: auto;
+            flex-grow: 1;
+            margin-bottom: 3vh;
+            margin-top: 4vh;
+        }
+        
+        .imgMatriceriaS{
+            height: 50%;
+            width: 50%;
+            text-align: center;
+            height: 50%;
+            flex-grow: 1;
+            margin-bottom: 3vh;
+            margin-top: 3vh;
+        }
+        
+        .imgMatriceriaT{
+            text-align: center;
+            height: 50%;
+            width: 50%;
+            flex-grow: 1;
+            margin-top: 3vh;
+            margin-bottom: 3vh;
+        }
+    }    
+}

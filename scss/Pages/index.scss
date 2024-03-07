@@ -1,0 +1,25 @@
+@media (min-width: 1704px) and (max-width: 8000px) {
+
+        #main-index{
+            background-image: url(../fotos/Frentefondo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            left: 0;
+            padding: 5vh;
+            #index-texto{
+                background: transparent;
+                backdrop-filter: blur(5px);
+                width: 740px;
+                padding: 10px;
+                text-align: justify;
+                color: rgb(247, 247, 247);
+                .texto-inicio{
+                    width: 700px;
+                    margin: 20px;
+                }
+            }
+        }
+
+}

@@ -1,0 +1,45 @@
+@media (min-width: 1704px) and (max-width: 8000px){
+    #inyeccion{
+        padding-left: 15px;
+        background-color: #cfe2f3;
+        .textoInyeccion{
+            width: 60%;
+            text-align: justify;
+            line-height: 1.6;
+            padding: 25px;
+            float: left;
+            margin: 30px;
+            background-color: #bcbcbc;
+            border-radius: 10px;
+            color: black;
+            text-align: justify;
+        }
+        .imagen1{
+            display: inline-block;
+            width: 30%;
+            margin: 30px;
+            text-align: center;
+        }
+        
+        .imagen2{
+            display: inline-block;
+            width: 30%;
+            margin: 30px;
+            text-align: center;
+        }
+        
+        .imagen3{
+            display: inline-block;
+            width: 30%;
+            text-align: center;
+            
+        }
+        
+        .imagen4{
+            display: inline-block;
+            width: 30%;
+            margin: 22px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@media (min-width: 1704px) and (max-width: 8000px) {
+    footer{
+        background-color: #5c758c;
+        font-size: 17px;
+        height: auto;
+        padding-left: 7px;
+        font-family: 'Roboto', sans-serif;
+        grid-area: footer;
+        div{
+            color:#cfe2f3;
+        }
+        a{
+            color: 	#cfe2f3;
+            text-decoration: none;
+        }
+    }
+}

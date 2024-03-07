@@ -4,10 +4,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/*HEADER*/
-
-
-
 body{
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(4,1fr);
