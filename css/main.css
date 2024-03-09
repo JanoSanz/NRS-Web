@@ -808,7 +808,7 @@
   }
   #contactanos .tick:active {
     background-color: green;
-    background-image: url(../../fotos/tick_icon.png);
+    background-image: url(../fotos/tick_icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30%;
@@ -832,7 +832,7 @@
   }
   #contactanos .basura:active {
     background-color: rgb(255, 0, 0);
-    background-image: url(../../fotos/trash_icon.png);
+    background-image: url(../fotos/trash_icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20%;
@@ -885,7 +885,7 @@
   }
   #contactanos .tick:active {
     background-color: green;
-    background-image: url(../../fotos/tick_icon.png);
+    background-image: url(../fotos/tick_icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30%;
@@ -909,7 +909,7 @@
   }
   #contactanos .basura:active {
     background-color: rgb(255, 0, 0);
-    background-image: url(../../fotos/trash_icon.png);
+    background-image: url(../fotos/trash_icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20%;
@@ -973,7 +973,7 @@
   }
   #contactanos .tick:active {
     background-color: green;
-    background-image: url(../../fotos/tick_icon.png);
+    background-image: url(../fotos/tick_icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30%;
@@ -997,7 +997,7 @@
   }
   #contactanos .basura:active {
     background-color: rgb(255, 0, 0);
-    background-image: url(../../fotos/trash_icon.png);
+    background-image: url(../fotos/trash_icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20%;
