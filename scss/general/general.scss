@@ -41,8 +41,52 @@
     -moz-transition: background-color 0.5s ease;
     -ms-transition: background-color 0.5s ease;
     -o-transition: background-color 0.5s ease;
+    
 }
 
+@mixin button{
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
 
-
-
+@mixin green{
+    &:hover {
+        background-color: rgb(187, 238, 187);
+        border: 3px solid green;
+      }
+      &:active {
+        background-color: green;
+        background-image:url(../../fotos/tick_icon.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30%;
+        color: transparent;
+        transition: 100ms;
+        -webkit-transition: 100ms;
+        -moz-transition: 100ms;
+        -ms-transition: 100ms;
+        -o-transition: 100ms;
+        }
+}
+@mixin red{
+    &:hover {
+        background-color: rgb(241, 165, 165);
+        border: 3px solid red;
+        }
+      &:active {
+        background-color: rgb(255, 0, 0);
+        background-image:url(../../fotos/trash_icon.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 20%;
+        color: transparent;
+        transition: 100ms;
+        -webkit-transition: 100ms;
+        -moz-transition: 100ms;
+        -ms-transition: 100ms;
+        -o-transition: 100ms;
+    }
+}
