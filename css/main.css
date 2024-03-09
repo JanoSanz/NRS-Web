@@ -795,6 +795,52 @@
     width: 50%;
     margin: 40px;
   }
+  #contactanos .tick {
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  #contactanos .tick:hover {
+    background-color: rgb(187, 238, 187);
+  }
+  #contactanos .tick:active {
+    background-color: green;
+    background-image: url(../../fotos/tick_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    color: transparent;
+    transition: 100ms;
+    -webkit-transition: 100ms;
+    -moz-transition: 100ms;
+    -ms-transition: 100ms;
+    -o-transition: 100ms;
+  }
+  #contactanos .basura {
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  #contactanos .basura:hover {
+    background-color: rgb(241, 165, 165);
+  }
+  #contactanos .basura:active {
+    background-color: rgb(255, 0, 0);
+    background-image: url(../../fotos/trash_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    color: transparent;
+    transition: 100ms;
+    -webkit-transition: 100ms;
+    -moz-transition: 100ms;
+    -ms-transition: 100ms;
+    -o-transition: 100ms;
+  }
 }
 @media (min-width: 1031px) and (max-width: 1703px) {
   #contactanos {
