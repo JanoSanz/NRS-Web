@@ -23,26 +23,29 @@
             img{
                 border: 5px solid #bcbcbc;
                 box-sizing: border-box;
+                transition: transform 0.8s;
+                -webkit-transition: transform 0.8s;
+                -moz-transition: transform 0.8s;
+                -ms-transition: transform 0.8s;
+                -o-transition: transform 0.8s;
+                &:hover{
+                    transform: scale(1.2);
+                    -webkit-transform: scale(1.2);
+                    -moz-transform: scale(1.2);
+                    -ms-transform: scale(1.2);
+                    -o-transform: scale(1.2);
+}
             }
         }
+      }
+}
         @media (max-width: 1030px){
             main{
                 height: 100%;
                 grid-area: main;
-                img{
-                    border: 5px solid #bcbcbc;
-                    box-sizing: border-box;
-                }
             }
         }
-    }
-    transition: background-color 0.5s ease;
-    -webkit-transition: background-color 0.5s ease;
-    -moz-transition: background-color 0.5s ease;
-    -ms-transition: background-color 0.5s ease;
-    -o-transition: background-color 0.5s ease;
-    
-}
+
 
 @mixin button{
     margin: 10px auto;
@@ -90,3 +93,7 @@
         -o-transition: 100ms;
     }
 }
+
+
+
+
