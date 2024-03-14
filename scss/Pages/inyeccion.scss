@@ -2,9 +2,12 @@
     #inyeccion{
         padding-left: 15px;
         background-color: #cfe2f3;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
         .textoInyeccion{
             width: 60%;
-            text-align: justify;
             line-height: 1.6;
             padding: 25px;
             float: left;
